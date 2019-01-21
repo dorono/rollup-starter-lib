@@ -1,6 +1,6 @@
 {
   "name": "rollup-starter-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/my-name-is.cjs.js",
   "module": "dist/my-name-is.esm.js",
   "browser": "dist/my-name-is.umd.js",
