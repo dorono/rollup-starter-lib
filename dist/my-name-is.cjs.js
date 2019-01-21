@@ -1,9 +1,11 @@
 'use strict';
 
-var foo = require('foo');
+function myName (name) {
+  return `My name is ${name}`;
+}
 
 function whatIsMyName(name) {
-  return foo.myName('DORON');
+  return myName('DORON');
 }
 
 module.exports = whatIsMyName;
