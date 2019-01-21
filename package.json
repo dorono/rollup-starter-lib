@@ -1,21 +1,36 @@
 {
-  "name": "rollup-starter-lib",
+  "name": "factom-sdk-rollup-test-lib",
   "version": "1.0.1",
-  "main": "dist/my-name-is.cjs.js",
-  "module": "dist/my-name-is.esm.js",
-  "browser": "dist/my-name-is.umd.js",
+  "main": "dist/factom-sdk-rollup-test-lib.cjs.js",
+  "module": "dist/factom-sdk-rollup-test-lib.esm.js",
+  "browser": "dist/factom-sdk-rollup-test-lib.umd.js",
   "dependencies": {
-    "ms": "^2.0.0"
+    "axios": "^0.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "is-url": "^1.2.4",
+    "proper-url-join": "^1.2.0"
   },
   "devDependencies": {
-    "rollup": "^1.0.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "jest-mock-axios": "^2.1.11",
+    "path": "^0.12.7",
+    "rollup": "^1.1.2",
     "rollup-plugin-commonjs": "^9.2.0",
-    "rollup-plugin-node-resolve": "^4.0.0"
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "babel": "^6.5.2",
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-env": "^1.1.1"
   },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "test": "node test/test.js",
+    "test": "jest",
     "pretest": "npm run build"
   },
   "files": [

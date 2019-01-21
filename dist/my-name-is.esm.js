@@ -1,9 +1,13 @@
-function myName (name) {
+function myName(name) {
   return `My name is ${name}`;
 }
 
-function whatIsMyName(name) {
+function myNameIs(name) {
   return myName('DORON');
 }
 
-export default whatIsMyName;
+function iLike(whatILike) {
+  return `I like ${whatILike}`;
+}
+
+export { myNameIs, iLike };

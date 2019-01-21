@@ -1,5 +1,9 @@
 import {myName} from './foo';
 
-export default function whatIsMyName(name) {
+export function myNameIs(name) {
   return myName('DORON');
+}
+
+export function iLike(whatILike) {
+  return `I like ${whatILike}`;
 }

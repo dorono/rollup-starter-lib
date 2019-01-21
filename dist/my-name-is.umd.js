@@ -1,17 +1,24 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-  typeof define === 'function' && define.amd ? define(factory) :
-  (global = global || self, global.factomHarmonyConnectSdk = factory());
-}(this, function () { 'use strict';
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+  typeof define === 'function' && define.amd ? define(['exports'], factory) :
+  (global = global || self, factory(global.factomHarmonyConnectSdk = {}));
+}(this, function (exports) { 'use strict';
 
-  function myName (name) {
+  function myName(name) {
     return `My name is ${name}`;
   }
 
-  function whatIsMyName(name) {
+  function myNameIs(name) {
     return myName('DORON');
   }
 
-  return whatIsMyName;
+  function iLike(whatILike) {
+    return `I like ${whatILike}`;
+  }
+
+  exports.myNameIs = myNameIs;
+  exports.iLike = iLike;
+
+  Object.defineProperty(exports, '__esModule', { value: true });
 
 }));

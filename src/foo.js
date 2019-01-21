@@ -1,4 +1,4 @@
-export function myName (name) {
+export function myName(name) {
   return `My name is ${name}`;
 }
 
