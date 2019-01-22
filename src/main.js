@@ -1,7 +1,7 @@
-import {myName} from './foo';
+import { myName } from './foo';
 
 export function myNameIs(name) {
-  return myName('DORON');
+  return myName(name);
 }
 
 export function iLike(whatILike) {

@@ -7,7 +7,7 @@ function myName(name) {
 }
 
 function myNameIs(name) {
-  return myName('DORON');
+  return myName(name);
 }
 
 function iLike(whatILike) {

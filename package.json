@@ -1,9 +1,9 @@
 {
-  "name": "factom-sdk-rollup-test-lib",
-  "version": "1.0.1",
-  "main": "dist/factom-sdk-rollup-test-lib.cjs.js",
-  "module": "dist/factom-sdk-rollup-test-lib.esm.js",
-  "browser": "dist/factom-sdk-rollup-test-lib.umd.js",
+  "name": "sdk-rollup-test-lib",
+  "version": "1.0.2",
+  "main": "dist/sdk-rollup-test-lib.cjs.js",
+  "module": "dist/sdk-rollup-test-lib.esm.js",
+  "browser": "dist/sdk-rollup-test-lib.umd.js",
   "dependencies": {
     "axios": "^0.18.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
